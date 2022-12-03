@@ -1,0 +1,27 @@
+GET http://localhost:3000/ HTTP/1.1
+
+###
+GET http://localhost:3000/1 HTTP/1.1
+
+###
+POST http://localhost:3000/ HTTP/1.1
+content-type: application/json
+
+{
+    "username": "firman",
+    "password": "firman",
+    "name": "firman"
+}
+
+###
+PUT http://localhost:3000/1 HTTP/1.1
+content-type: application/json
+
+{
+    "username": "firman",
+    "password": "firman",
+    "name": "m firman"
+}
+
+###
+DELETE http://localhost:3000/1 HTTP/1.1
